@@ -15,8 +15,9 @@ public  class arraypar {
             System.out.println("Insira qualquer número: ");
             enter = input.nextInt();
             for(int x = 0; x <=arr.length;x++){
-                System.out.println(arr);
+                System.out.println(arr[x]);
             }
+            System.out.println("");
             count++;
 
         }
