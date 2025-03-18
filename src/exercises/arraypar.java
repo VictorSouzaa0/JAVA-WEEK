@@ -17,7 +17,7 @@ public  class arraypar {
             for(int x = 0; x <=arr.length;x++){
                 System.out.println(arr[x]);
             }
-            System.out.println("");
+            System.out.println("git");
             count++;
 
         }
