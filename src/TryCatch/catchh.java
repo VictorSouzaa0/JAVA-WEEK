@@ -14,9 +14,9 @@ public class catchh {
             int denominador = scanner.nextInt();
 
             int resultado = dividir(numerador, denominador);
-        } catch (ArithmeticException e) {
+        }catch (ArithmeticException e) {
             System.out.println("Não é possível dividir por zero");
-        } catch (Exception e) {
+        }catch (Exception e) {
             System.out.println("Erro:  Entrada inválida, Certfique se de inserir números inteiros");
         }finally {
             scanner.close();
