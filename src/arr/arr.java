@@ -6,15 +6,16 @@ import java.util.Scanner;
 public class arr {
 
     public static void main(String[] args) {
-
-
         Scanner input =  new Scanner(System.in);
+        ArrayList<Integer>values = new ArrayList<>();
 
-        String enter = input.nextLine();
-        ArrayList<String> cars = new ArrayList<String>();
+        boolean into = true;
 
-        cars.add("BMW");
+        while (into = true){
 
-        System.out.println(cars);
+            System.out.println("Insira um valor");
+            double value1 = input.nextDouble();
+        }
+
     }
 }
